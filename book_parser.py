@@ -3,7 +3,7 @@ try:
 
     from bs4 import BeautifulSoup
     import urllib.request, requests
-    from docx import Document
+    from docx import Document #pip install python-docx
     from docx.enum.text import WD_ALIGN_PARAGRAPH
     from docx.shared import Pt, RGBColor
     from docx.text.run import Font
